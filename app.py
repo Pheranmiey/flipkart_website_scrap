@@ -72,7 +72,28 @@ def index():
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
+
+            
+            from pymongo.mongo_client import MongoClient
+
+            uri = "mongodb+srv://saolaolaoluwa:pwskills@cluster0.llcrti5.mongodb.net/?retryWrites=true&w=majority"
+
+            # Create a new client and connect to the server
+            client = MongoClient(uri)
+            db = client['scrapper_eng_pwskills']
+            coll_pw_eng = db['scraper_pwskills_eng']
+            coll_pw_eng.insert_many(reviews)
+
+            # Send a ping to confirm a successful connection
+            try:
+                client.admin.command('ping')
+                print("Pinged your deployment. You successfully connected to MongoDB!")
+            except Exception as e:
+                print(e)
+
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
+
+
         except Exception as e:
             logging.info(e)
             return 'something is wrong'

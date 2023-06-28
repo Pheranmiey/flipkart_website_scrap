@@ -5386,3 +5386,66 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.25:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:04:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:04:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:04:49] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:04:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'hppavilion', 'Name': 'Vishnu vardhan Madichedi', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "# I'm writing this after one week...# Display and design super.# Battery pack up 3 hrs without internet    2.5 hrs with internet# Full charging in 80 minutes.# life time ms office .Overall good laptop ...No heating issuesSound - clear super quality sound..."}, {'Product': 'hppavilion', 'Name': 'Chaitanya', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Good battery backup, No heating issues, excellent hp support, I'm very happy to purchase this laptop."}, {'Product': 'hppavilion', 'Name': 'RAVISANKAR K', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'very good product'}, {'Product': 'hppavilion', 'Name': 'Ramya Royi', 'Rating': '5', 'CommentHead': 'Good Product', 'Comment': 'Good product, been using this for over a year, battery draining is perhaps an issue.'}, {'Product': 'hppavilion', 'Name': 'Ramya Royi', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good product, been using this for over a year, battery draining is perhaps an issue.'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:05:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:05:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:05:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'hppavilion', 'Name': 'Vishnu vardhan Madichedi', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "# I'm writing this after one week...# Display and design super.# Battery pack up 3 hrs without internet    2.5 hrs with internet# Full charging in 80 minutes.# life time ms office .Overall good laptop ...No heating issuesSound - clear super quality sound..."}, {'Product': 'hppavilion', 'Name': 'Ramya Royi', 'Rating': '5', 'CommentHead': 'Good Product', 'Comment': 'Good product, been using this for over a year, battery draining is perhaps an issue.'}, {'Product': 'hppavilion', 'Name': 'Chaitanya', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Good battery backup, No heating issues, excellent hp support, I'm very happy to purchase this laptop."}, {'Product': 'hppavilion', 'Name': 'RAVISANKAR K', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'very good product'}, {'Product': 'hppavilion', 'Name': 'RAVISANKAR K', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'very good product'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:11:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:11:37] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:11:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'sugar', 'Name': 'Sudha  Shivakumar ', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Good but over priced.'}, {'Product': 'sugar', 'Name': 'Aashish Sarkar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Healthy Hygienic,free flow'}, {'Product': 'sugar', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Very satisfied with product'}, {'Product': 'sugar', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Good'}, {'Product': 'sugar', 'Name': 'Jyoti Mishra', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Very nice👍'}, {'Product': 'sugar', 'Name': 'Vimal Sharma', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'So sweet'}, {'Product': 'sugar', 'Name': 'Adarsh Kumar', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Good'}, {'Product': 'sugar', 'Name': 'Adarsh Kumar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:12:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:12:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:12:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 's', 'Name': 'Somasundaram A', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nice Product'}, {'Product': 's', 'Name': 'Meera  Devi', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Very good smartphone'}, {'Product': 's', 'Name': 'Deepan Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Very nice saipal screen recorder'}, {'Product': 's', 'Name': 'Omprakash Prakash ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Very nice'}, {'Product': 's', 'Name': 'Manu Sai', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Good product usage'}, {'Product': 's', 'Name': 'Amulya  Mulla', 'Rating': '1', 'CommentHead': 'Very poor', 'Comment': 'Worst with battery charging. It takes 1 hr to get 10% of charging. Raised a complaint against to this. they cheated on us. There is no resolution given to me.Feeling so bad. I have gifted this to my dad. And they ruined it.'}, {'Product': 's', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Very very adorble product thanks flipkart'}, {'Product': 's', 'Name': 'Muhammad idrish', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Good product'}, {'Product': 's', 'Name': 'Virender SINGH', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': 'Tuching and haging problem'}, {'Product': 's', 'Name': 'OM  JADON', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Camera and speaker poor quality'}, {'Product': 's', 'Name': 'OM  JADON', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Camera and speaker poor quality'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:14:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.25:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:28:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:28:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:28:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'hppavilion', 'Name': 'Vishnu vardhan Madichedi', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "# I'm writing this after one week...# Display and design super.# Battery pack up 3 hrs without internet    2.5 hrs with internet# Full charging in 80 minutes.# life time ms office .Overall good laptop ...No heating issuesSound - clear super quality sound..."}, {'Product': 'hppavilion', 'Name': 'Ramya Royi', 'Rating': '5', 'CommentHead': 'Good Product', 'Comment': 'Good product, been using this for over a year, battery draining is perhaps an issue.'}, {'Product': 'hppavilion', 'Name': 'Chaitanya', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Good battery backup, No heating issues, excellent hp support, I'm very happy to purchase this laptop."}, {'Product': 'hppavilion', 'Name': 'RAVISANKAR K', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'very good product'}, {'Product': 'hppavilion', 'Name': 'RAVISANKAR K', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'very good product'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:29:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:29:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:29:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Ok..  With this cost and this value'}, {'Product': 'iphone11', 'Name': 'Sudipto Barman', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'High performance deliver ;p'}, {'Product': 'iphone11', 'Name': 'Ghouse skp', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Complicated ios built in. Needs much refinement from android to ios file transfer. Camera no flaws. File manager and gallery shall be more user friendly.'}, {'Product': 'iphone11', 'Name': 'Girish  Shriname', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': "Great Experience with IPhone, It's always high Standard phone.. I loved Camera and Functions"}, {'Product': 'iphone11', 'Name': 'Sonu Singh', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Amazing Phone With Great Camera Which Better Battery 🥳'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Awesome camera and performance I loved it😘'}, {'Product': 'iphone11', 'Name': 'Akhil Jose', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'My First iPhone Good battery life 1 day fullCamera 👍✌️Performance 🎭'}, {'Product': 'iphone11', 'Name': 'Rahul  Kumar', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Such an awesome experience with iPhone 11 awesome Camera quality.'}, {'Product': 'iphone11', 'Name': 'Babloo prasad', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome camera by apple👌'}, {'Product': 'iphone11', 'Name': 'Draksha  Khan', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'The iPhone 11 have better battery life , better cameras and a newer processor .'}, {'Product': 'iphone11', 'Name': 'Draksha  Khan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'The iPhone 11 have better battery life , better cameras and a newer processor .'}]
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:32:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:32:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [28/Jun/2023 13:32:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
