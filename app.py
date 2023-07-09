@@ -96,7 +96,7 @@ def index():
 
         except Exception as e:
             logging.info(e)
-            return 'item not found, try again'
+            return 'something is wrong'
     # return render_template('results.html')
 
     else:
